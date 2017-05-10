@@ -43,9 +43,9 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			<!-- <plugin>
 				<groupId>com.github.github</groupId>
-				<artifactId>downloads-maven-plugin</artifactId>
+				<artifactId> s-maven-plugin</artifactId>
 				<version>0.6</version>
 				<configuration>
 					<description>Official ${project.name} build of the ${project.version} release</description>
@@ -61,7 +61,7 @@
 						<phase>install</phase>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
